@@ -21,7 +21,7 @@ public class Funcionario extends AbstractEntity<Long>{
 	private BigDecimal salario;
 	@Column(name = "data_entrada", nullable = false, columnDefinition = "DATE")
 	private LocalDate dataEntrada;
-	@Column(name = "data_entrada", nullable = true, columnDefinition = "DATE")
+	@Column(name = "data_saida", nullable = true, columnDefinition = "DATE")
 	private LocalDate dataSaida;
 	@OneToOne(cascade = CascadeType.ALL)
 	@JoinColumn(name = "endereco_id_fk")
