@@ -6,26 +6,26 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.example.demo.dao.CargoDAO;
-import com.example.demo.domain.Cargo;
+import com.example.demo.dao.FuncionarioDAO;
+import com.example.demo.domain.Funcionario;
 
 @Service
 
-public class CargoServiceImpl implements CargoService {
+public class FuncionarioServiceImpl implements FuncionarioService {
 
 	@Autowired
-	private CargoDAO dao;
+	FuncionarioDAO dao;
 	
 	@Override
 	@Transactional(readOnly = false)
-	public void salvar(Cargo cargo) {
-		dao.save(cargo);
+	public void salvar(Funcionario entity) {
+		dao.save(entity);
 	}
 
 	@Override
 	@Transactional(readOnly = false)
-	public void editar(Cargo cargo) {
-		dao.update(cargo);
+	public void editar(Funcionario entity) {
+		dao.update(entity);
 	}
 
 	@Override
@@ -35,14 +35,12 @@ public class CargoServiceImpl implements CargoService {
 	}
 
 	@Override
-	@Transactional(readOnly = true)
-	public Cargo buscarPorId(Long id) {
+	public Funcionario buscarPorId(Long id) {
 		return dao.findById(id);
 	}
 
 	@Override
-	@Transactional(readOnly = true)
-	public List<Cargo> buscarTodos() {
+	public List<Funcionario> buscarTodos() {
 		return dao.findAll();
 	}
 

@@ -1,5 +1,18 @@
 package com.example.demo.service;
 
-public interface FuncionarioService {
+import java.util.List;
 
+import com.example.demo.domain.Funcionario;
+
+public interface FuncionarioService {
+	
+	void salvar(Funcionario cargo);
+
+	void editar(Funcionario cargo);
+
+	void excluir(Long id);
+
+	Funcionario buscarPorId(Long id);
+
+	List<Funcionario> buscarTodos();
 }
