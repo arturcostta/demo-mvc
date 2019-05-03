@@ -54,7 +54,7 @@ public class CargoController {
 	@PostMapping("/editar")
 	public String editar(Cargo cargo, RedirectAttributes attr) {
 		service.editar(cargo);
-		attr.addFlashAttribute("sucess", "Cargo editado com sucesso");
+		attr.addFlashAttribute("success", "Cargo editado com sucesso");
 		return "redirect:/cargos/cadastrar";
 	}
 	
