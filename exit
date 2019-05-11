@@ -1,0 +1,89 @@
+[33mcommit eccff6eb32dc1d6d7ed43a64ebcb94dfba8b8061[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: Artur Costa <arturcostta@gmail.com>
+Date:   Thu May 2 21:09:16 2019 -0300
+
+    Implementação da página de cargos
+
+[33mcommit 8996c6ffed63749e904affc95dc25bcf795baa65[m
+Author: Artur Costa <arturcostta@gmail.com>
+Date:   Thu Apr 25 20:07:57 2019 -0300
+
+    Inclusao de cargo
+
+[33mcommit 81b3fbdf6eec90fc00cd9701a789f1a467a349dc[m
+Author: Artur Costa <arturcostta@gmail.com>
+Date:   Thu Apr 25 19:10:16 2019 -0300
+
+    Criacao de popup, mensagem de sucesso, edicao, exclusao
+
+[33mcommit 4b11699253b2f292fcb444599cb11dbb3a4fd44c[m
+Author: Artur Costa <arturcostta@gmail.com>
+Date:   Wed Apr 17 21:24:07 2019 -0300
+
+    Ajustando pagina e controller
+
+[33mcommit e0bfd1734638454b953ff61cd145fb6bc4f641d8[m
+Author: Artur Costa <arturcostta@gmail.com>
+Date:   Tue Apr 16 21:14:18 2019 -0300
+
+    Colocando thymeleaf no projeto
+
+[33mcommit ae8bd26e460936f6d6031815ef37dc40e6a7d36c[m
+Author: Artur Costa <arturcostta@gmail.com>
+Date:   Thu Apr 11 19:49:37 2019 -0300
+
+    Conclusao services, configuracao Thymeleaf
+
+[33mcommit b337ed76e9d7846cf6ae59dc38971752d2a10c56[m
+Author: Artur Costa <arturcostta@gmail.com>
+Date:   Tue Apr 9 19:47:43 2019 -0300
+
+    Criacao do primeiro service
+
+[33mcommit df05067d5fa8d5daf45a13da3dbc662397a2af22[m
+Author: Artur Costa <arturcostta@gmail.com>
+Date:   Tue Apr 9 19:33:51 2019 -0300
+
+    Correção nome tabela e configuracao banco
+
+[33mcommit d07d1d122bdf065355d2d4c15ee09d77186ef0f4[m
+Author: Artur Costa <arturcostta@gmail.com>
+Date:   Tue Apr 9 19:12:30 2019 -0300
+
+    Criacao camada persistencia
+
+[33mcommit 50508edf82290671a79bdfc7e46aaf3944c512c4[m
+Author: Artur Costa <arturcostta@gmail.com>
+Date:   Thu Apr 4 21:01:36 2019 -0300
+
+    Criacao de classes de dominio
+
+[33mcommit 3588d128eabe84a465b204a082f3c8ea196d24cf[m
+Author: Artur Costa <arturcostta@gmail.com>
+Date:   Wed Apr 3 20:41:09 2019 -0300
+
+    Criacao de entidades
+
+[33mcommit ef31da57f255af19aa9cbba9fda6ef4f2aa18d47[m
+Author: Artur Costa <arturcostta@gmail.com>
+Date:   Tue Apr 2 20:04:38 2019 -0300
+
+    Criacao de novos controllers
+
+[33mcommit 98eeefcbd91b8dc86171fdf3cb053bdf5fc75c66[m
+Author: Artur Costa <arturcostta@gmail.com>
+Date:   Tue Apr 2 19:49:37 2019 -0300
+
+    Adicionando webjars
+
+[33mcommit cef2a063b18165564260193dcc70abff23a23b33[m
+Author: Artur Costa <arturcostta@gmail.com>
+Date:   Sun Mar 31 17:50:23 2019 -0300
+
+    Adicao de arquivos da view e correcao na versão do pom
+
+[33mcommit ab9528999b165aeb38cc1271add4ba4a2ad9baf7[m
+Author: Artur Costa <arturcostta@gmail.com>
+Date:   Sun Mar 31 16:58:49 2019 -0300
+
+    Arquivos iniciais do projeto

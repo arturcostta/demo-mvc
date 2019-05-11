@@ -12,6 +12,11 @@ import javax.persistence.Table;
 @Entity
 @Table(name="CARGOS")
 public class Cargo extends AbstractEntity<Long>{
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 8938929897926048624L;
+
 	@Column(name = "nome", nullable = false, unique = true, length = 60)
 	private String nome;
 	
