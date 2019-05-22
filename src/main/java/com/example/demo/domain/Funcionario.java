@@ -20,6 +20,11 @@ import org.springframework.format.annotation.NumberFormat.Style;
 @Table(name="FUNCIONARIOS")
 public class Funcionario extends AbstractEntity<Long>{
 	
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
 	@Column(nullable = false, unique = true)
 	private String nome;
 	
