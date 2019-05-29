@@ -1,5 +1,6 @@
 package com.example.demo.dao;
 
+import java.time.LocalDate;
 import java.util.List;
 
 import com.example.demo.domain.Funcionario;
@@ -18,4 +19,10 @@ public interface FuncionarioDAO {
 	public List<Funcionario> findByNome(String nome);
 
 	public List<Funcionario> findByCargo(Long id);
+
+	public List<Funcionario> findByDataEntradaSaida(LocalDate entrada, LocalDate saida);
+
+	public List<Funcionario> findByDataEntrada(LocalDate entrada);
+
+	public List<Funcionario> findByDataSaida(LocalDate saida);
 }

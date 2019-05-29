@@ -1,5 +1,6 @@
 package com.example.demo.service;
 
+import java.time.LocalDate;
 import java.util.List;
 
 import com.example.demo.domain.Funcionario;
@@ -19,4 +20,6 @@ public interface FuncionarioService {
 	List<Funcionario> buscarPorNome(String nome);
 
 	Object buscarPorCargo(Long id);
+
+	List<Funcionario> buscarPorDatas(LocalDate entrada, LocalDate saida);
 }
