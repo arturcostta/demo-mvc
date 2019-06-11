@@ -41,7 +41,7 @@ public class FuncionarioController {
 	@PostMapping("/salvar")
 	public String salvar(@Valid Funcionario funcionario, BindingResult result, RedirectAttributes attr) {
 		if(result.hasErrors()) {
-			return "/funcionarios/cadastro";
+			return "/funcionario/cadastro";
 		}
 		funcionarioService.salvar(funcionario);
 		attr.addFlashAttribute("success", "Funcionário incluído com sucesso!");

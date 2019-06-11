@@ -11,6 +11,7 @@ import javax.persistence.ManyToOne;
 import javax.persistence.OneToOne;
 import javax.persistence.Table;
 import javax.validation.Valid;
+import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.PastOrPresent;
 
@@ -28,13 +29,17 @@ public class Funcionario extends AbstractEntity<Long>{
 	 */
 	private static final long serialVersionUID = 1L;
 
+	@NotBlank
 	@Column(nullable = false, unique = true)
+	@NotNull(message = "{NotNull.funcionario.nome}")
 	private String nome;
 	
+	@NotNull
 	@NumberFormat(style = Style.CURRENCY, pattern = "#,##0.00")
 	@Column(nullable = false, columnDefinition = "DECIMAL(7,2) DEFAULT 0.00")
 	private BigDecimal salario;
 	
+	@NotNull
 	@DateTimeFormat(iso = ISO.DATE)
 	@PastOrPresent(message = "{PastOrPresent.funcionario.dataEntrada}")
 	@Column(name = "data_entrada", nullable = false, columnDefinition = "DATE")

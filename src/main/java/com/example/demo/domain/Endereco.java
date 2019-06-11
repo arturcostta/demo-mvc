@@ -29,7 +29,7 @@ public class Endereco extends AbstractEntity<Long>{
 	@Column(nullable = false)
 	private String cidade;
 	
-	@NotNull(message = "{NotNull.endereco.uf")
+	@NotNull(message = "{NotNull.endereco.uf}")
 	@Column(nullable = false, length = 2)
 	@Enumerated(EnumType.STRING)
 	private UF uf;
